@@ -3,6 +3,7 @@
 This project explores machine learning-based approaches for intrusion detection using the CIC IoT 2023 dataset. It includes custom sampling techniques, feature engineering, and classification models implemented in Python 
 
 **Download Dataset**
+
 To download the dataset go to 
 ``` 
 https://www.kaggle.com/datasets/akashdogra/cic-iot-2023
@@ -25,6 +26,7 @@ Custom feature: Packets_Duration_Ratio = Tot sum / (Duration + 1e-6)
 Data clustering (reduce CPU and Memory Load) 
 
 
+
 **Sampling & Balancing**
 
 Stratified sampling for preserving class distribution
@@ -35,17 +37,20 @@ SMOTE based sampling
 
 Simple Undersampling
 
+
 **Model Evaluation**
 
 Evaluation Metrics: Accuracy, Precision, Recall, F1-score
 
 Classification of Original vs Synthetic (Sampled) data to assess realism of synthetic data
 
+
 **Models**
 
 RandomForestClassifier
 
 XGBClassifier
+
 
 **Sample Results**
 
@@ -65,9 +70,12 @@ weighted avg       1.00      0.93      0.96    700929
 
 Accuracy: 1.0 (Overfitting Detected)
 
+
 **Requirements**
+
 Jupyter Notebook 7.2.2 or Higher
 pip install pandas scikit-learn xgboost (required for XGBoost IPYNB, not required for others)
+
 
 **Running the Project**
 
@@ -92,6 +100,7 @@ All models tested on chunked CSVs using 5% samples (Depending on computer perfor
 
 Intended for research into detection generalization & class balance challenges
 
+
 **Hardware**
 
 The code was built and ran off of 
@@ -104,3 +113,9 @@ Memory: 16GB DDR4
 *This code does not utilize GPU*
 
 For lower end systems it may not be possible to run or take extremely long time to run due to hardware limitations. 
+
+**License**
+This project is licensed under the MIT License
+
+Copyright (c) 2025 MR-VL
+
