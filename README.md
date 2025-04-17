@@ -49,7 +49,7 @@ Classification of Original vs Synthetic (Sampled) data to assess realism of synt
 
 RandomForestClassifier
 
-XGBClassifier
+XGBClassifier (utilizes DASK for faster and more efficient analysis due to hardware constraints)
 
 
 **Sample Results**
