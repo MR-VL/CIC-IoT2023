@@ -74,8 +74,10 @@ Accuracy: 1.0 (Overfitting Detected)
 **Requirements**
 
 Jupyter Notebook 7.2.2 or Higher
-pip install pandas scikit-learn xgboost (required for XGBoost IPYNB, not required for others)
 
+(Below are required for XGBoost IPYNB, not required for others)
+pip install pandas scikit-learn xgboost 
+!pip install dask[complete] 
 
 **Running the Project**
 
